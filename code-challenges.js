@@ -155,7 +155,7 @@ const onlyVowelsRefactor = (data) => {
   }else {
     let strArr = data.split('')
     return strArr.filter(value => {
-      let lower = value.toLocaleLowerCase()
+      let lower = value.toLowerCase()
       return lower !== 'a' && lower !== 'e' && lower !== 'i' && lower !== 'o' && lower !== 'u' 
     }).join('')
   }

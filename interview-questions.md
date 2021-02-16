@@ -125,5 +125,6 @@ Research and define the following terms to the best of your ability.
 - React
   - js library that creates single page apps
 - React State
+  - built in method for react that is like a storage area
 - CRUD
   - Create, read, update, delete
